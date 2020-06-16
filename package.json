@@ -1,0 +1,26 @@
+{
+  "name": "electron-svelte-ts-template",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "rollup -c"
+  },
+  "keywords": [],
+  "author": "Sebastien Kovacs",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^8.0.1",
+    "@rollup/plugin-typescript": "^4.1.2",
+    "electron": "^9.0.2",
+    "rollup": "^2.13.1",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-svelte": "^5.2.2",
+    "svelte": "^3.23.0",
+    "tslib": "^2.0.0",
+    "typescript": "^3.9.5"
+  },
+  "dependencies": {
+  }
+}
